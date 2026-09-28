@@ -75,6 +75,8 @@ export default function Contact() {
                 experiência do cliente.
               </p>
 
+            </div>
+
               {/* WhatsApp */}
               <a
                 href="https://wa.me/5521966912443"
@@ -101,30 +103,27 @@ export default function Contact() {
                 />
               </a>
 
-              {/* E-mail */}
-              <a
-                href="mailto:dayanecardosof@gmail.com"
-                className="mt-4 flex items-center gap-3 rounded-2xl border border-white/10 bg-white/[0.03] p-3.5 transition-all duration-300 hover:border-violet-500/40 hover:bg-violet-500/10 sm:gap-4 sm:p-4"
+             {/* E-mail */}
+             <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=dayanecardosof@gmail.com&su=Contato%20pelo%20portf%C3%B3lio"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 flex items-center gap-3 rounded-2xl border border-white/10 bg-white/[0.03] p-3.5 transition-all duration-300 hover:border-violet-500/40 hover:bg-violet-500/10 sm:gap-4 sm:p-4"
               >
                 <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-cyan-500 to-sky-500 sm:h-12 sm:w-12">
                   <Mail size={21} className="text-white sm:size-[22px]" />
-                </div>
-
-                <div className="min-w-0">
-                  <p className="text-xs text-gray-500 sm:text-sm">
-                    E-mail
-                  </p>
-                  <p className="font-medium text-white">
-                    Entre em contato
-                  </p>
-                </div>
-
-                <ArrowUpRight
-                  size={19}
-                  className="ml-auto shrink-0 text-cyan-300"
-                />
-              </a>
-            </div>
+                  </div>
+                  
+                  <div className="min-w-0">
+                    <p className="text-xs text-gray-500 sm:text-sm">E-mail</p>
+                    <p className="font-medium text-white">dayanecardosof@gmail.com</p>
+                    </div>
+                    
+                    <ArrowUpRight
+                    size={19}
+                    className="ml-auto shrink-0 text-cyan-300"
+                    />
+                    </a>
 
             {/* Redes */}
             <div className="flex flex-col justify-center">
