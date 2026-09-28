@@ -83,7 +83,7 @@
                       <p className="text-gray-400 text-sm mt-1">Design personalizado</p>
                       </div> 
               <div> 
-                  <h2 className="text-3xl font-bold text-cyan-400">24h</h2> 
+                  <h2 className="text-3xl font-bold text-cyan-400">N1/N2</h2> 
                   <p className="text-gray-400 text-sm mt-1">Suporte ao cliente</p> 
               </div> 
               </div>

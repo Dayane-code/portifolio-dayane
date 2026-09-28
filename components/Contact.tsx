@@ -105,7 +105,7 @@ export default function Contact() {
 
              {/* E-mail */}
              <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=dayanecardosof@gmail.com&su=Contato%20pelo%20portf%C3%B3lio"
+              href="mailto:dayanecardosof@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 flex items-center gap-3 rounded-2xl border border-white/10 bg-white/[0.03] p-3.5 transition-all duration-300 hover:border-violet-500/40 hover:bg-violet-500/10 sm:gap-4 sm:p-4"

@@ -10,6 +10,8 @@ const projects = [
     category: "Sistema Web",
     description:
       "Site completo com frontend, backend e sistema de gestão de leads para acompanhamento das solicitações recebidas pela clínica.",
+    technologies: "HTML • CSS • JavaScript • Flask • SQL",
+    development: "Frontend + Backend",
     color: "from-violet-500 to-fuchsia-500",
     image: "/images/odontologia.jpg",
     link: "https://site-adrianny-y0rr.onrender.com",
@@ -19,6 +21,8 @@ const projects = [
     category: "Landing Page",
     description:
       "Landing page desenvolvida para apresentar uma marca de beleza com foco em identidade visual, experiência do usuário e conversão.",
+    technologies: "HTML • CSS • JavaScript",
+    development: "Frontend",
     color: "from-pink-500 to-rose-500",
     image: "/images/case-beauty2.jpg",
     link: "https://studiocasebeauty.netlify.app/",
@@ -28,6 +32,8 @@ const projects = [
     category: "Automação",
     description:
       "Fluxos inteligentes para atendimento, IA, chatbot e automações empresariais.",
+    technologies: "IA • APIs • Automação",
+    development: "Automação + Integrações",
     color: "from-cyan-500 to-sky-500",
     image: "/images/automacao.jpg",
   },
@@ -36,6 +42,8 @@ const projects = [
     category: "One Page",
     description:
       "Convites digitais personalizados para aniversários, casamentos e eventos.",
+    technologies: "HTML • CSS • JavaScript",
+    development: "Frontend",
     color: "from-pink-500 to-rose-500",
     image: "/images/convite.png",
   },
@@ -150,6 +158,17 @@ export default function Projects() {
                 <p className="mb-6 text-sm leading-7 text-gray-400 sm:mb-8 sm:text-base">
                   {project.description}
                 </p>
+
+                <div className="mb-6 space-y-2 text-sm sm:mb-8">
+                  <p className="text-gray-400">
+                    <span className="font-semibold text-white">Tecnologias:</span>{" "}
+                    {project.technologies}
+                    </p>
+                     <p className="text-gray-400">
+                      <span className="font-semibold text-white">Desenvolvimento:</span>{" "}
+                      {project.development}
+                      </p>
+                      </div>
 
                 {project.link && (
                   <a

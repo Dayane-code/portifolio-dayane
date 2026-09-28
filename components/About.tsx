@@ -12,12 +12,12 @@ const skills = [
   {
     icon: Bot,
     title: "Automação de Processos",
-    description: "Fluxos inteligentes, integrações e chatbots para empresas.",
+    description: "Soluções inteligentes para automatizar tarefas, melhorar o atendimento e otimizar processos.",
   },
   {
     icon: Code2,
     title: "Desenvolvimento Web",
-    description: "Sites profissionais, landing pages e sistemas personalizados.",
+    description: "Sites modernos, responsivos e personalizados para apresentar sua marca e conquistar novos clientes.",
   },
 ];
 
@@ -102,7 +102,7 @@ export default function About() {
             {[
               { number: "10+", label: "Projetos" },
               { number: "100%", label: "Personalizado" },
-              { number: "24h", label: "Suporte" },
+              { number: "N1/N2", label: "Suporte Técnico" },
             ].map((item) => (
               <motion.div
                 key={item.label}
