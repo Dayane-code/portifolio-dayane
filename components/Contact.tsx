@@ -161,7 +161,7 @@ export default function Contact() {
 
                 {/* GitHub */}
                 <a
-                  href="https://github.com/"
+                  href="https://github.com/Dayane-code"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group flex items-center gap-3 rounded-2xl border border-white/10 bg-white/[0.03] p-4 transition-all duration-300 hover:-translate-y-1 hover:border-cyan-500/40 hover:bg-cyan-500/10 sm:gap-4 sm:p-5"
